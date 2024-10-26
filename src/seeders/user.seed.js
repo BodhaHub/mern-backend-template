@@ -1,5 +1,4 @@
 const { v4: uuidv4 } = require("uuid");
-const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const crypto = require("crypto");
 const User = require("./models/User"); // Assuming models are in './models/User'
